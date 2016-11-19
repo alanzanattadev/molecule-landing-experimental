@@ -1,0 +1,6 @@
+.centralized-workflow-presentation-container {
+  background-color: #181F21;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}

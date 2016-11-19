@@ -1,0 +1,6 @@
+.news-letter-form-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
