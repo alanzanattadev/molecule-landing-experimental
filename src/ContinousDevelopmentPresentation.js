@@ -3,6 +3,7 @@
 
 import React from 'react';
 import RoleButton from "./RoleButton";
+import DellXPSMockup from "./DellXPSMockup";
 import './ContinousDevelopmentPresentation.css';
 
 export default class ContinousDevelopmentPresentation extends React.Component<DefaultProps, Props, State> {
@@ -19,7 +20,9 @@ export default class ContinousDevelopmentPresentation extends React.Component<De
     return (
       <div className="container">
         <div className="demo">
-
+          <div className="mockup">
+            <DellXPSMockup/>
+          </div>
         </div>
         <div className="roles">
           <RoleButton>CEO</RoleButton>

@@ -2,8 +2,8 @@
 // @flow
 
 import React from 'react';
-import DellXPSMockup from "./DellXPSMockup";
 import './HeroHeader.css';
+import DellXPSMockup from "./DellXPSMockup";
 
 export default class HeroHeader extends React.Component<DefaultProps, Props, State> {
 
@@ -18,7 +18,11 @@ export default class HeroHeader extends React.Component<DefaultProps, Props, Sta
   render() {
     return (
       <header>
-        <div className="mockup">
+        <h2 className="title">
+          advanced ide<br/>
+          to transform ideas into products
+        </h2>
+        <div className="mid-mockup">
           <DellXPSMockup/>
         </div>
         <h1>Molecule</h1>
